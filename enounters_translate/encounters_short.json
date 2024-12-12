@@ -1,0 +1,83 @@
+{
+    "EMPTY": [
+        {
+            "text": "",
+            "ambient": "NULL_MUSIC",
+            "ambientVolume": 1
+        }
+    ],
+    "TROJA-INTRO": [
+        {
+            "text": "ERROR: could not load file.",
+            "music": "CREEPY_MUSIC",
+            "musicVolume": 1
+        },
+        {
+            "text": "...Attempting to recover file from directory cache..."
+        },
+        {
+            "text": "...Attempting to recover file from data store..."
+        },
+        {
+            "text": "...Attem&A037&B5FD t##################...",
+            "background": "NULL"
+        },
+        {
+            "text": "CRITICAL ER #!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!#!#!#!#!#!##!##WWW!#!#!#!##!!#!"
+        },
+        {
+            "text": "        "
+        },
+        {
+            "text": "..."
+        },
+        {
+            "text": "................."
+        },
+        {
+            "text": "...",
+            "animatedForeground": {
+                "animation": "TROJA",
+                "parameters": []
+            },
+            "sound": "ROBOTIC_SCREAM",
+            "music": "HORROR_MUSIC",
+            "musicVolume": 1
+        },
+        {
+            "text": "..."
+        },
+        {
+            "text": "..."
+        },
+        {
+            "text": "..."
+        }
+    ],
+    "CHARACTER-CREATE": [
+        {
+            "text": "",
+            "mutations": [
+                {
+                    "saveType": "MODE",
+                    "value": {
+                        "class": "com.majalis.save.SaveManager$GameMode",
+                        "value": "SKIRMISH"
+                    }
+                }
+            ]
+        }
+    ],
+    "STORY-END": [
+        {
+            "text": "Thank you so much! This is the current end of story mode - please be sure to try out the Create a Character/Adventure mode to get the full extent of what's currently in Tales of Androgyny!",
+            "animatedForeground": {
+                "animation": "GHOST",
+                "parameters": []
+            }
+        },
+        {
+            "text": "There are more characters, more scenarios, and a lot more play area in Adventure mode, and you can create your character and select their skills, perks, and spells.  Enjoy!"
+        }
+    ]
+}
